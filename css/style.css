@@ -1,0 +1,16 @@
+/*header start*/
+header{background-color: #2e3442;height: 31px;}
+header a i{padding-right: 9px;font-size: 16px;}
+header a{display: inline-block;padding-top: 6px;color: #868d9e;}
+header a:hover{color: #fff;}
+.h-l{padding-right: 30px;}
+@media (max-width: 279px){
+	header{display: none;}
+}
+@media (min-width: 1180px){.h-l{padding-left: 18px;}}
+/*header end*/
+
+
+@media(min-width: 740px){}
+@media(min-width: 980px){}
+@media (min-width: 1180px){}
