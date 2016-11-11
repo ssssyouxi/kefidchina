@@ -1,0 +1,118 @@
+/*头部导航*/
+.about_nav{
+/*	padding-bottom: 14px;
+	padding-top: 14px;*/
+	font-size: 14px;
+	font-family: Arial;
+
+}
+.about_nav ul li{
+	margin-left: 40px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	
+	font-weight: 600;
+}
+.about_kefid{
+	border-bottom: 1px red solid;
+}
+.about_logo{
+	display: block;
+	margin-top:15px;
+}
+.about_nav_way{
+	background: #f1f1f1;
+	padding-bottom: 14px;
+	padding-top: 14px;
+}
+/*主内容区*/
+.profile{background:url(../img/about/profile-xl.jpg) no-repeat center;height: 500px}
+.about_b .mt div{
+	margin-top:20px;
+}
+h2{
+	margin-top: 40px;
+}
+.about_b .p_a{
+	margin-top: 45px;
+	line-height: 24px;
+	
+}
+.about_b .p_b{
+	background: #f8f8f8;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 7px 30px 7px;
+
+}
+.about_l{
+	margin-top:54px;
+
+}
+.about_l img{
+	width: 100%;
+}
+/*底部导航*/
+ul,li{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+article{
+	margin-bottom: 54px;
+}
+footer{
+	background: #f8f8f8;
+}
+.about_footer_l{
+	margin-top: 35px;
+}
+.about_footer_l>li:first-child{
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 16px;
+
+}
+.about_footer_l img{
+	padding-bottom: 5px;
+}
+.about_footer_l li{
+	margin-top: 10px;
+}
+.about_footer_l>li:nth-child(2){
+	margin-top: 22px;
+}
+.about_footer_icon img{
+	vertical-align: middle;
+}
+
+/*媒体查询*/
+@media (min-width: 760px){
+	.profile{
+		background:url(../img/about/profile-xs.jpg) no-repeat center;height: 382px
+		}
+	}
+@media(min-width: 1000px){
+	.profile{
+		background:url(../img/about/profile-xb.jpg) no-repeat top center;
+		}
+	}
+@media(min-width: 1200px){
+	.profile h1{padding: 45px 0 35px;font-size: 32px;}
+	.profile p{line-height: 22px}
+}
+
+.tri:before{
+	display:inline-block;
+	content: "";
+	width: 0;
+	height: 0;
+	border-width: 5px 0 5px  5px;
+	 border-style: solid;
+	 border-color:transparent transparent  transparent red;
+	 
+	 margin-top: 6px;
+	 margin-left: 58px;
+	}
