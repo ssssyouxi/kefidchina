@@ -10,7 +10,27 @@ header a:hover{color: #fff;}
 @media (min-width: 1180px){.h-l{padding-left: 18px;}}
 /*header end*/
 
+/*nav start*/
+nav{height:63px;}
 
-@media(min-width: 740px){}
-@media(min-width: 980px){}
-@media (min-width: 1180px){}
+nav img{
+	position: relative;left: 4px;top: 12px;
+}
+#but{
+	margin-top: 17px;
+}
+#nav-link1{
+	z-index: 999;
+	position: relative;
+}
+#nav-link1 li{
+	padding-left: 7px;
+}
+.n-r{
+	position: relative;
+	top:20px;
+}
+button{
+	float:right;
+}
+/*nav end*/
