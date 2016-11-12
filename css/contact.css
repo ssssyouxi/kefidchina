@@ -86,14 +86,16 @@ article div div b{
 	margin-bottom: 25px;
 }
 */
-.contact_mat table tr td{
-	padding:7px;
-	margin:0;
-}
 /*.contact_mat table{
 	width:500px;
 }*/
-.contact_mat{
+/*
+.contact_mat table tr td{
+	padding:7px;
+	margin:0;
+}*/
+
+/*.contact_mat{
 	padding-top: 5px;
 }
 
@@ -101,11 +103,17 @@ article div div b{
 	padding:7px;
 	margin:0;
 }
-/*.contact_mat table{
-	width:500px;
-}*/
+
 .contact_cap{
 	padding-top: 5px;
+}*/
+.contact_mat li {
+	padding:0;
+	width:92px;
+	float:left;
+}
+.contact_mat #contant_mat_met{
+	width:110px;
 }
 @media(min-width: 760px){
 	.contact_mat table{

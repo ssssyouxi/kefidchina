@@ -31,7 +31,8 @@
 			</a>	
 		</div>
 	</header>
-	<nav class="container  doc-naver line ">
+	<nav class="container  doc-naver">
+		<div class="line">
 		<div class="xs3 xm3 xb3">
 			<img src="img/public/kefid.png" height="35" width="150">
 			<button class="button icon-navicon margin-top float-right" id="but" data-target="#nav-link1">
@@ -48,6 +49,7 @@
 				<li><a href="#">About Kefid</a></li>
 				<li><a href="#">Contact Us</a></li>
 			</ul>
+		</div>
 		</div>
 	</nav>
 	<div class="nb-d ">
@@ -112,76 +114,72 @@
 				<div class="contact_s2">
 					<p>Contact us now if you have any question about our company and products. Any of your enquiry and suggestion will be highly appreciated.</p>
 				</div>
-				<div class="contact_form">
-					<form method="post" action="#" class="form-x">
+				<div class="contact_form line">
+					<form method="post" action="#" >
 						<div class="form-group">
-							<div class="label">
-								<label class="float-left">Products :</label>
+							<div class="label xm2">
+								<label class="">Products:</label>
 							</div>
-							<div class="field">
+							<div class="field xm10">
 								<input type="text" class="input"/>
 							</div>
 						</div>
 						<div class="form-group">
-							<div class="label">
-								<label class="float-left contact_m">Materials :</label>
+							<div class="label xm2">
+								<label class="">Materials:</label>
 							</div>
-							<div class="field contact_mat">
-							<table >
-								<tr>
-									<td><label><input type="checkbox">Basalt</label></td>
-									<td><label><input type="checkbox">Barite</label></td>
-									<td><label><input type="checkbox">Calcite</label></td>
-									<td><label><input type="checkbox">Coal</label></td>
-									<td><label><input type="checkbox">Dolomite</label></td>
-								</tr>
-								<tr>
-									<td><label><input type="checkbox">Feldspar</label></td>
-									<td><label><input type="checkbox">Gypsum</label></td>
-									<td><label><input type="checkbox">Granite</label></td>
-									<td><label><input type="checkbox">Gracel</label></td>
-									<td><label><input type="checkbox">Limestone</label></td>
-								</tr>
-								<tr>
-									<td><label><input type="checkbox">Quartz</label></td>
-									<td><label><input type="checkbox">Pebble</label></td>
-									<td><label><input type="checkbox">Slag</label></td>
-									<td colspan="2"><label><input type="checkbox">Metallic ores</label></td>
-								</tr>
-								<tr class="border">
-									<td class="border" valign="middle"><label><input id="contact_che" type="checkbox" />Other</label></td>
-									<td colspan="4" class="border contact_inp_4"><input  disabled="disabled" id="contact_inp" type="text" class="input" /></td>
-								</tr>
-								</table>
+							<div class="field xm10">
+							<ul class="contact_mat line">
+									<li><label><input type="checkbox">Basalt</label></li>
+									<li><label><input type="checkbox">Barite</label></li>
+									<li><label><input type="checkbox">Calcite</label></li>
+									<li><label><input type="checkbox">Coal</label></li>
+									<li><label><input type="checkbox">Dolomite</label></li>
+								
+									<li><label><input type="checkbox">Feldspar</label></li>
+									<li><label><input type="checkbox">Gypsum</label></li>
+									<li><label><input type="checkbox">Granite</label></li>
+									<li><label><input type="checkbox">Gracel</label></li>
+									<li><label><input type="checkbox">Limestone</label></li>
+								
+									<li><label><input type="checkbox">Quartz</label></li>
+									<li><label><input type="checkbox">Pebble</label></li>
+									<li><label><input type="checkbox">Slag</label></li>
+									<li  id="contact_mat_met"><label><input type="checkbox">Metallic ores</label></li>
+								
+									<li class="border" valign="middle"><label><input id="contact_che" type="checkbox" />Other</label></li>
+									<li class="border contact_inp_4"><input  disabled="disabled" id="contact_inp" type="text" class="input" /></li>
+								
+								</ul>
 							</div>
 						</div>
-						<div class="form-group">
+						<!--<div class="form-group">
 							<div class="label">
 								<label class="float-left">Capacity :</label>
 							</div>
 							<div class="field contact_cap">
 								<table>
 									<tr>
-										<td><label><input name="pintuer" type="radio"/>>650T/H</label></td>
-										<td><label><input name="pintuer" type="radio"/>450-649T/H</label></td>
-										<td><label><input name="pintuer" type="radio"/>400-449T/H</label></td>
-										<td><label><input name="pintuer" type="radio"/>300-399T/H</label></td>
+										<li><label><input name="pintuer" type="radio"/>>650T/H</label></li>
+										<li><label><input name="pintuer" type="radio"/>450-649T/H</label></li>
+										<li><label><input name="pintuer" type="radio"/>400-449T/H</label></li>
+										<li><label><input name="pintuer" type="radio"/>300-399T/H</label></li>
 									</tr>
 									<tr>
-										<td><label><input name="pintuer" type="radio"/>200-299T/H</label></td>
-										<td><label><input name="pintuer" type="radio"/>120-199T/H</label></td>
-										<td><label><input name="pintuer" type="radio"/>80-119T/H</label></td>
-										<td><label><input name="pintuer" type="radio"/>50-79T/H</label></td>
+										<li><label><input name="pintuer" type="radio"/>200-299T/H</label></li>
+										<li><label><input name="pintuer" type="radio"/>120-199T/H</label></li>
+										<li><label><input name="pintuer" type="radio"/>80-119T/H</label></li>
+										<li><label><input name="pintuer" type="radio"/>50-79T/H</label></li>
 									</tr>
 									<tr>
-										<td><label><input name="pintuer" type="radio"/>30-49T/H</label></td>
-										<td><label><input name="pintuer" type="radio"/><30T/H</label></td>
-										<td><label><input name="pintuer" type="radio"/>Other</label></td>
-										<td>&nbsp;</td>
+										<li><label><input name="pintuer" type="radio"/>30-49T/H</label></li>
+										<li><label><input name="pintuer" type="radio"/><30T/H</label></li>
+										<li><label><input name="pintuer" type="radio"/>Other</label></li>
+										<li>&nbsp;</li>
 									</tr>
 								</table>
 							</div>							
-						</div>
+						</div>-->
 					</form>
 				</div>
 			</section>
