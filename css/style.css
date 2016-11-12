@@ -34,3 +34,37 @@ button{
 	float:right;
 }
 /*nav end*/
+
+/*footer start*/
+ul,li{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+article{
+	margin-bottom: 54px;
+}
+footer{
+	background: #f8f8f8;
+}
+.about_footer_l{
+	margin-top: 35px;
+}
+.about_footer_l>li:first-child{
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 16px;
+
+}
+.about_footer_l img{
+	padding-bottom: 5px;
+}
+.about_footer_l li{
+	margin-top: 10px;
+}
+.about_footer_l>li:nth-child(2){
+	margin-top: 22px;
+}
+.about_footer_icon img{
+	vertical-align: middle;
+}
