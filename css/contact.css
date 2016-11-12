@@ -1,0 +1,137 @@
+
+.nb-d{
+	height: 38px;background-color: #f1f1f1;
+}
+.nb-d div p,.E-m4 p{
+	padding-top: 7px;
+}
+
+.contact_h1{font-family: Estrangelo Edessa;position:relative;left:2px;padding-top:37px;font-size: 32px;height:84px;margin:0;}
+.contact_h4{position:relative;left:5px;padding-top:38px;height:69px;margin:0;}
+article section .contact_a1{
+	padding-top: 25px;
+}
+article div div b{
+	font-size: 17px;
+}
+.contact_first{
+	margin:0;padding-top: 32px;
+}
+.contact_i-f{
+	font-size: 21px;
+}
+.E-m1{
+	padding-left:25px;color: #464a56;
+}
+.E-m1 a{
+	padding-top: 6px;
+}
+.contact_i-s{
+	font-size: 37px;margin-top:-8px; 
+}
+.E-m2{
+	padding-left:30px;padding-top:0;color: #464a56; 
+}
+.E-m2 p{
+	padding-left: 1px;
+}
+.contact_second{
+	padding-top: 10px;
+}
+.contact_i-t{
+	font-size:30px;
+}
+.E-m3{
+	padding-left: 23px;
+}
+.E-m3 p{
+	padding-top: 6px;padding-left: 1px;
+}
+.contact_third{
+	padding-top: 14px;
+}
+.contact_i-fo{
+	font-size:29px;
+}
+.contact_fourth{
+	padding-top: 8px;
+}
+.E-m4{
+	padding-top: 1px;padding-left: 17px;
+}
+@media(min-width: 740px){}
+@media(min-width: 980px){}
+@media (min-width: 1180px){}
+.contact_a1 p,.E-m2 p,.contact_indo{margin: 0;padding-top: 0}
+.contact_h4{
+	height:75px;
+	padding-top:41px;
+}
+.contact_indo{
+	padding-left: 6px;
+}
+.contact_p1{
+	padding-top: 9px;
+}
+.contact_s2 p{
+	padding-top: 32px;
+}
+.contact_form{
+	color: #2f3443;
+	padding-top: 9px;
+}
+/*.contact_mat label{
+	float:left;
+	margin-right: 90px;
+	margin-bottom: 25px;
+}
+*/
+.contact_mat table tr td{
+	padding:7px;
+	margin:0;
+}
+/*.contact_mat table{
+	width:500px;
+}*/
+.contact_mat{
+	padding-top: 5px;
+}
+
+.contact_cap table tr td{
+	padding:7px;
+	margin:0;
+}
+/*.contact_mat table{
+	width:500px;
+}*/
+.contact_cap{
+	padding-top: 5px;
+}
+@media(min-width: 760px){
+	.contact_mat table{
+		width: 329px;
+	}
+	.nav-inline li a {
+    	padding: 5px 7px;
+}
+	.contact_mat table tr td{
+		padding:0;
+	}
+}
+@media(min-width:960px){
+	.contact_mat table{
+		width:500px;
+	}
+	.contact_mat table tr td{
+		padding:7px;
+	}
+	.contact_inp_4{
+		padding: 0;
+	}
+}
+@media(min-width: 1000px){
+.nav-inline li a {
+    padding: 5px 20px;
+}
+}
+
