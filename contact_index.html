@@ -17,6 +17,7 @@
 	<script src="./js/jquery.js"></script>
 	<script src="./js/pintuer.js"></script>
 	<script src="./js/respond.js"></script>
+	<script src="./js/contact.js"></script>
 	<!-- <link rel="prefetch" href="预加载的图片" /> -->
 </head>
 <body>
@@ -117,17 +118,19 @@
 				<div class="contact_form line">
 					<form method="post" action="#" >
 						<div class="form-group">
-							<div class="label xm2">
-								<label class="">Products:</label>
+							<div class="label xm2 contact_pro">
+								<label class="contact_float">Products:</label>
 							</div>
 							<div class="field xm10">
 								<input type="text" class="input"/>
 							</div>
 						</div>
+						<div class="clearfix"></div>
 						<div class="form-group">
 							<div class="label xm2">
-								<label class="">Materials:</label>
+								<label class="contact_float">Materials:</label>
 							</div>
+							<div class="contact_fl"></div>
 							<div class="field xm10">
 							<ul class="contact_mat line">
 									<li><label><input type="checkbox">Basalt</label></li>
@@ -145,56 +148,108 @@
 									<li><label><input type="checkbox">Quartz</label></li>
 									<li><label><input type="checkbox">Pebble</label></li>
 									<li><label><input type="checkbox">Slag</label></li>
-									<li  id="contact_mat_met"><label><input type="checkbox">Metallic ores</label></li>
-								
-									<li class="border" valign="middle"><label><input id="contact_che" type="checkbox" />Other</label></li>
-									<li class="border contact_inp_4"><input  disabled="disabled" id="contact_inp" type="text" class="input" /></li>
-								
+									<li  id="contact_mat_met">
+										<label><input type="checkbox">Metallic ores</label></li>
+									<div class="clearfix"></div>
+									<li id="contact_mat_oth">
+										<label><input id="contact_che" type="checkbox" />Other</label>
+									</li>
+									<div class="field xl9 xs10 xm10 " id="contact_mat_oth_i">
+										<input  disabled="disabled" id="contact_inp" type="text" class="input" />
+									</div>
 								</ul>
 							</div>
 						</div>
-						<!--<div class="form-group">
-							<div class="label">
-								<label class="float-left">Capacity :</label>
+						<div class="clearfix"></div>
+						<div class="form-group">
+							<div class="label xm2">
+								<label class="contact_c contact_float">Capacity:</label>
 							</div>
-							<div class="field contact_cap">
-								<table>
-									<tr>
+						<div class="contact_fl"></div>
+							<div class="field xm10">
+								<ul class="contact_cap">
 										<li><label><input name="pintuer" type="radio"/>>650T/H</label></li>
 										<li><label><input name="pintuer" type="radio"/>450-649T/H</label></li>
 										<li><label><input name="pintuer" type="radio"/>400-449T/H</label></li>
 										<li><label><input name="pintuer" type="radio"/>300-399T/H</label></li>
-									</tr>
-									<tr>
+									
+									
 										<li><label><input name="pintuer" type="radio"/>200-299T/H</label></li>
 										<li><label><input name="pintuer" type="radio"/>120-199T/H</label></li>
 										<li><label><input name="pintuer" type="radio"/>80-119T/H</label></li>
 										<li><label><input name="pintuer" type="radio"/>50-79T/H</label></li>
-									</tr>
-									<tr>
+									
+									
 										<li><label><input name="pintuer" type="radio"/>30-49T/H</label></li>
 										<li><label><input name="pintuer" type="radio"/><30T/H</label></li>
 										<li><label><input name="pintuer" type="radio"/>Other</label></li>
 										<li>&nbsp;</li>
-									</tr>
-								</table>
+								</ul>
 							</div>							
-						</div>-->
+						</div>
+						<div class="clearfix"></div>
+						<div class="form-group">
+							<div class="label xm2 ">
+								<label class="contact_float contact_n">Name:</label>
+							</div>
+							<div class="field xm10">
+								<input type="text" class="input"/>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="form-group">
+							<div class="label xm2 ">
+								<label class="contact_float contact_n">E-Mail:</label>
+							</div>
+							<div class="field xm10">
+								<input type="text" class="input" placeholder="Your privacy is safe!"/>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="form-group">
+							<div class="label xm2 ">
+								<label class="contact_float contact_n">Country:</label>
+							</div>
+							<div class="field xm10">
+								<input type="text" class="input"/>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="form-group">
+							<div class="label xm2 ">
+								<label class="contact_float contact_n">Tel:</label>
+							</div>
+							<div class="field xm10">
+								<input type="text" class="input"/>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="form-group">
+							<div class="label xm2 ">
+								<label class="contact_float contact_n">Message:</label>
+							</div>
+							<div class="field xm10">
+								<textarea rows="5" class="input" ></textarea>
+							</div>
+						</div>
+						
+
+						<div class="form-group contact_subm">
+							<div class="label xl2 xs2 xm2 xb2">
+								<label class="">&nbsp;</label>
+							</div>
+							<div class="contact_a11"></div>
+							<div class="field xl3 xs4 xm4 xb4">
+								<button class="button contact_sub"><b>Submit</b></button>
+							</div>
+							<div class="field xl2 xs4 xm4 xb4  contact_a">
+								<a href="">Reset</a>
+							</div>
+						</div>
 					</form>
 				</div>
 			</section>
 		</div>
 	</article>
 </body>
-<script type="text/javascript">
-$(function  () {
-	$("#contact_che").change(function() {
-		if ($("#contact_inp").attr("disabled")) {
-			$("#contact_inp").removeAttr('disabled');
-		}else{
-			$("#contact_inp").attr("disabled",true);
-		}
-	});
-})
-</script>
 </html>
