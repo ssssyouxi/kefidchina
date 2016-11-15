@@ -186,7 +186,11 @@ article div div b{
 
 }
 }
-
+@media(max-width: 350px){
+	.contact_h1{
+		font-size: 30px;
+	}
+}
 @media(max-width: 414px){
 	.contact_sub{
 		margin-left: -21px;
