@@ -104,11 +104,7 @@ h1{
 .service_o{
 		overflow:hidden;
 }
-@media(max-width:411px){
-		.service_pro_pro{
-		width:94.7% !important;
-	}
-}
+
 @media(max-width: 760px){
 	.service_tec_sup{
     	display: none;
@@ -162,4 +158,19 @@ h1{
 .service_tec_sup p{
 	font-size: 14px;
 }
+}
+@media(max-width:411px){
+		.service_pro_pro{
+		width:340px;
+	}
+}
+@media(max-width:320px){
+		.service_pro_pro{
+		width:300px;
+	}
+}
+@media(max-width:310px){
+		.service_pro_pro{
+		width:95%;
+	}
 }
