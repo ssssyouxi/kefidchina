@@ -1,0 +1,36 @@
+.product_title{
+	font-weight: bold;
+	font-size: 36px;
+	padding-bottom:8px;
+	margin-top: 70px;
+}
+.product_list_nav li{
+	font-size: 16px;
+	font-weight: bold;
+	margin-right:62px;
+	margin-top:14px;
+	margin-bottom: 25px;
+}
+.product_center_pic .box{
+	position: relative;
+	margin-top: 57px;
+
+}
+
+.product_icon{
+	width: 30px;
+	height: 25px;
+	position: absolute;
+}
+.product_center_inname{
+	margin-top: -40px;
+	text-align: center;
+	color: red;
+	font-weight: 16px;
+	font-weight: bold;
+}
+@media (max-width: 760px){
+	.product_center_inname{
+		text-align: left;
+	}
+}

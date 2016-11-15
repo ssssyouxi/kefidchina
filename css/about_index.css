@@ -141,6 +141,8 @@
 	padding-top: 5px;
 }
 .about_products_list .box .about_icon{
+	width: 30px;
+	height: 25px;
 	position: absolute;
 }
 .about_des{
