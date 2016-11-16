@@ -23,11 +23,26 @@
 	position: absolute;
 }
 .product_center_inname{
-	margin-top: -40px;
+	margin-top: -30px;
 	text-align: center;
 	color: red;
 	font-weight: 16px;
 	font-weight: bold;
+}
+.about_des p:last-child{
+	color: red;
+}
+.l1>.box{
+	margin-top: 50px;
+}
+.l2{
+	margin-top: 50px;
+}
+.l2>.box{
+	margin-top:25px;
+}
+.l3{
+	margin-top: 50px;
 }
 @media (max-width: 760px){
 	.product_center_inname{
