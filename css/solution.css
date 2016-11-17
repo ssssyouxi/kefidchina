@@ -1,0 +1,20 @@
+h1{
+	font-size: 30px;
+	color: #454545;
+	margin:15px 0;
+}
+.solution_sma{
+	color: #6c6c6c;
+	margin:0;
+}
+.solution_div{
+	position: relative;
+}
+.solution_flo{
+	position: absolute;
+	width:90%;
+	height:30%;
+	top:40%;
+	background-color: rgba(47,52,67,0.5);
+	color:white;
+}
