@@ -1,0 +1,64 @@
+/*导航及面包屑 start*/
+.nb-d{
+	height: 38px;background-color: #f1f1f1;
+}
+.nb-d div p{
+	padding-top: 7px;
+}
+
+@media(min-width: 760px){
+	.nav-inline li a {
+    	padding: 5px 7px;
+}
+}
+@media(min-width: 1000px){
+.nav-inline li a {
+    padding: 5px 20px;
+}
+}
+/*导航及面包屑 end*/
+h1{
+	font-family: "estrangelo edessa",Arial,"Times New Roman",Georgia;
+	font-size: 34px;
+	padding-top:27px;
+	height:73px;
+	margin-bottom: 15px;
+}
+.news_top{
+	margin-bottom: 0;
+}
+.news_tit1{
+	font-size: 18px;
+	color: #2f3443;
+	line-height: 28px;
+}
+.news_tit2{
+	font-size: 12px;
+	color: #4b4b4b;
+		margin-bottom: 0px;
+}
+.news_tit3{
+	color: #606060;
+}
+.news_img{
+	margin-bottom: 15px;
+}
+.news_tit4{
+	color: #2f3443;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+.news_tit4 a{
+	color: #2f3443;
+}
+.news_tit5{
+	color: #2f3443;
+	font-size: 12px;
+	margin-bottom: 0;
+}
+.news_tit6{
+	color: #515151;
+}
+.news_more, .news_more a{
+	color: #8e8e8e;
+}

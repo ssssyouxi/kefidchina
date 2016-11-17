@@ -1,0 +1,176 @@
+.nb-d{
+	height: 38px;background-color: #f1f1f1;
+}
+.nb-d div p{
+	padding-top: 7px;
+}
+h1{
+	font-family: "estrangelo edessa",Arial,"Times New Roman",Georgia;
+	font-size: 34px;
+	padding-top:27px;
+	height:73px
+}
+.service_tec{
+	margin-top: 38px;
+	position: relative;
+	padding-bottom: 10px;
+}
+.service_tec_sup{
+	background-color: rgba(255,255,255,0.93);
+	width:31.79%;
+	height:100%;
+	position: absolute;
+	right:6%;
+	top:0;
+
+}
+.service_tec_sup span{
+	display: block;
+	width: 53%;
+	color:#da3003;
+	border-bottom:2px solid #da3003;
+	position:relative;
+	left:10%;
+	top:16%;
+	padding-bottom: 2%;
+}
+.service_tec_sup p{
+	color:#888886;
+	padding:0 10%;
+	padding-top: 20%;
+}
+.s2{
+		display: none;
+		margin-top: 5px;
+}
+.s2 span{
+	color: #da3003;
+		font-size: 1em;
+}
+.service_tit{
+	margin-top:30px;
+}
+.service_title{
+	font-size: 16px;
+	color: #2e3442;
+	margin-bottom: 5px;
+}
+.service_art{
+	color:#656565;
+}
+.service_ons{
+	margin-top: 50px;
+		color: #525252;
+}
+.service_ons_tit{
+	color: #da3003;
+	font-size: 22px;
+}
+.service_pro_p{
+	padding:0 10px;
+	font-size: 22px;
+	color: #da3003;
+}
+.service_s3{
+	margin-top: 30px;
+}
+.service_img{
+	position: relative;
+}
+.service_pro_pro{
+	position: absolute;
+	bottom:0;
+	width: 371px;
+	height:35%;
+	background-color: rgba(222,101,82,0.8);
+	padding: 3% 6%;
+		overflow: hidden;
+}
+.service_pro_p1{
+	font-size: 16px;
+	color: white;
+	margin-bottom: 0;
+
+}
+.service_pro_p2{
+	font-size: 12px;
+	color: white;
+}
+.service_i{
+	padding-top: 20px;
+
+
+}
+.service_o{
+		overflow:hidden;
+}
+
+@media(max-width: 760px){
+	.service_tec_sup{
+    	display: none;
+}
+	.s2{
+		display: inline;
+	}
+}
+
+
+@media(min-width: 760px){
+	.nav-inline li a {
+    	padding: 5px 7px;
+}
+
+}
+@media(max-width: 1000px){
+	.service_tec_sup span{
+	font-size: 13px;
+	top:8%;
+}
+.service_tec_sup p{
+	font-size: 12px;
+	line-height: 15px;
+	padding-top: 14%;
+}
+.service_pro_pro{
+	width: 355px;
+}
+}
+@media(max-width: 760px){
+	.service_pro_pro{
+		width: 371px ;
+	}
+}
+@media(min-width: 1000px){
+.nav-inline li a {
+    padding: 5px 20px;
+}
+	.service_tec_sup span{
+	font-size: 19px;
+}
+.service_tec_sup p{
+	font-size: 12px;
+}
+}
+@media(min-width:1215px){
+	.service_tec_sup span{
+	font-size: 22px;
+}
+.service_tec_sup p{
+	font-size: 14px;
+}
+}
+@media(max-width:411px){
+		.service_pro_pro{
+		width:340px;
+	}
+}
+@media(max-width:320px){
+		.service_pro_pro{
+		width:300px;
+	}
+}
+@media(max-width:310px){
+		.service_pro_pro{
+		width:95%;
+	}
+}
