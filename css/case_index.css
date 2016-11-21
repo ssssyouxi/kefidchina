@@ -1,0 +1,48 @@
+
+.case_index_nav li a{
+	padding: 5px;
+	
+}
+.doc-logo button{
+	margin-top: -10px;
+}
+.case_index_title{
+	font-size: 22px;
+	color: #414141;
+	margin-top: 30px;
+}
+.doc-logo {
+	margin-top: 10px;
+
+}
+.case_index_plist div{
+	margin-top: 40px;
+}
+.case_index_plist img{
+	width: 100%
+}
+.case_index_plist p{
+	font-size: 14px;
+	font-weight: bold;
+}
+@media(max-width: 759px){
+	
+}
+@media(min-width: 760px){
+	.case_index_nav li{
+		margin-right: 25px;
+	
+	}
+}
+@media(min-width: 1000px){
+	.case_index_nav li{
+		margin-right: 45px;
+	
+	}
+}
+@media(min-width: 1200px){
+	.case_index_nav li{
+		margin-right: 65px;
+	
+	}
+}
