@@ -76,6 +76,7 @@ footer{
 	padding-bottom: 5px;
 }
 .about_footer_l li{
+	white-space:nowrap;
 	margin-top: 10px;
 }
 .about_footer_l>li:nth-child(2){
@@ -83,6 +84,11 @@ footer{
 }
 .about_footer_icon img{
 	vertical-align: middle;
+}
+@media(max-width:440px){
+	.about_footer li{
+		clear:both;
+	}
 }
 @media(max-width: 759px){
 	.about_footer>li:nth-last-child(1){
