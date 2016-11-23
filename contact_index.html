@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>aaaa</title>
+	<title>contact</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,6 +17,7 @@
 	<script src="./js/jquery.js"></script>
 	<script src="./js/pintuer.js"></script>
 	<script src="./js/respond.js"></script>
+	<script src="./js/contact.js"></script>
 	<!-- <link rel="prefetch" href="预加载的图片" /> -->
 </head>
 <body>
@@ -31,35 +32,37 @@
 			</a>	
 		</div>
 	</header>
-	<nav class="container  doc-naver line ">
+	<nav class="container  doc-naver">
+		<div class="line">
 		<div class="xs3 xm3 xb3">
-			<img src="img/public/kefid.png" height="35" width="150">
+			<a href="./index.html"><img src="img/public/kefid.png" height="35" width="150"></a>
 			<button class="button icon-navicon margin-top float-right" id="but" data-target="#nav-link1">
 		</button>
 		</div>
 		<div class="n-r xs9 xm9 xb9">
 		
 			<ul class="nav nav-inline nav-right nav-navicon  bg-white doc-nav" id="nav-link1">
-				<li><a href="#">Products</a></li>
-				<li><a href="#">Case</a></li>
-				<li><a href="#">News</a></li>
-				<li><a href="#">Solution</a></li>
-				<li><a href="#">Service</a></li>
-				<li><a href="#">About Kefid</a></li>
-				<li><a href="#">Contact Us</a></li>
+				<li><a href="./product_index.html">Products</a></li>
+				<li><a href="./case_index.html">Case</a></li>
+				<li><a href="./news_index.html">News</a></li>
+				<li><a href="./solution_index.html">Solution</a></li>
+				<li><a href="./service.html">Service</a></li>
+				<li><a href="./about_index.html">About Kefid</a></li>
+				<li><a href="./contact_index.html">Contact Us</a></li>
 			</ul>
+		</div>
 		</div>
 	</nav>
 	<div class="nb-d ">
 		<div class="container">
 
-			<p><a href="#">Home </a>> Contact Us</p>
+			<p><a href="./index.html">Home </a>&gt; Contact Us</p>
 		</div>
 	</div>
 	<article class="container">
 		<h1 class="border-bottom contact_h1"><b>Contact Us & Feedback</b></h1>
 		
-		<div class="line-big">
+		<div class="line-big contact_mar">
 			<section class="xs6 ">
 				<h4 class="border-bottom contact_h4"><b>ShangHai,China</b></h4>
 				
@@ -112,91 +115,206 @@
 				<div class="contact_s2">
 					<p>Contact us now if you have any question about our company and products. Any of your enquiry and suggestion will be highly appreciated.</p>
 				</div>
-				<div class="contact_form">
-					<form method="post" action="#" class="form-x">
+				<div class="contact_form line">
+					<form method="post" action="#" >
 						<div class="form-group">
-							<div class="label">
-								<label class="float-left">Products :</label>
+							<div class="label xm2 contact_pro">
+								<label class="contact_float">Products:</label>
 							</div>
-							<div class="field">
+							<div class="field xm10">
 								<input type="text" class="input"/>
 							</div>
 						</div>
+						<div class="clearfix"></div>
 						<div class="form-group">
-							<div class="label">
-								<label class="float-left contact_m">Materials :</label>
+							<div class="label xm2">
+								<label class="contact_float">Materials:</label>
 							</div>
-							<div class="field contact_mat">
-							<table >
-								<tr>
-									<td><label><input type="checkbox">Basalt</label></td>
-									<td><label><input type="checkbox">Barite</label></td>
-									<td><label><input type="checkbox">Calcite</label></td>
-									<td><label><input type="checkbox">Coal</label></td>
-									<td><label><input type="checkbox">Dolomite</label></td>
-								</tr>
-								<tr>
-									<td><label><input type="checkbox">Feldspar</label></td>
-									<td><label><input type="checkbox">Gypsum</label></td>
-									<td><label><input type="checkbox">Granite</label></td>
-									<td><label><input type="checkbox">Gracel</label></td>
-									<td><label><input type="checkbox">Limestone</label></td>
-								</tr>
-								<tr>
-									<td><label><input type="checkbox">Quartz</label></td>
-									<td><label><input type="checkbox">Pebble</label></td>
-									<td><label><input type="checkbox">Slag</label></td>
-									<td colspan="2"><label><input type="checkbox">Metallic ores</label></td>
-								</tr>
-								<tr class="border">
-									<td class="border" valign="middle"><label><input id="contact_che" type="checkbox" />Other</label></td>
-									<td colspan="4" class="border contact_inp_4"><input  disabled="disabled" id="contact_inp" type="text" class="input" /></td>
-								</tr>
-								</table>
+							<div class="contact_fl"></div>
+							<div class="field xm10">
+							<ul class="contact_mat line">
+									<li><label><input type="checkbox">Basalt</label></li>
+									<li><label><input type="checkbox">Barite</label></li>
+									<li><label><input type="checkbox">Calcite</label></li>
+									<li><label><input type="checkbox">Coal</label></li>
+									<li><label><input type="checkbox">Dolomite</label></li>
+								
+									<li><label><input type="checkbox">Feldspar</label></li>
+									<li><label><input type="checkbox">Gypsum</label></li>
+									<li><label><input type="checkbox">Granite</label></li>
+									<li><label><input type="checkbox">Gracel</label></li>
+									<li><label><input type="checkbox">Limestone</label></li>
+								
+									<li><label><input type="checkbox">Quartz</label></li>
+									<li><label><input type="checkbox">Pebble</label></li>
+									<li><label><input type="checkbox">Slag</label></li>
+									<li  id="contact_mat_met">
+										<label><input type="checkbox">Metallic ores</label></li>
+									<div class="clearfix"></div>
+									<li id="contact_mat_oth">
+										<label><input id="contact_che" type="checkbox" />Other</label>
+									</li>
+									<div class="field xl9 xs10 xm10 " id="contact_mat_oth_i">
+										<input  disabled="disabled" id="contact_inp" type="text" class="input" />
+									</div>
+								</ul>
 							</div>
 						</div>
+						<div class="clearfix"></div>
 						<div class="form-group">
-							<div class="label">
-								<label class="float-left">Capacity :</label>
+							<div class="label xm2">
+								<label class="contact_c contact_float">Capacity:</label>
 							</div>
-							<div class="field contact_cap">
-								<table>
-									<tr>
-										<td><label><input name="pintuer" type="radio"/>>650T/H</label></td>
-										<td><label><input name="pintuer" type="radio"/>450-649T/H</label></td>
-										<td><label><input name="pintuer" type="radio"/>400-449T/H</label></td>
-										<td><label><input name="pintuer" type="radio"/>300-399T/H</label></td>
-									</tr>
-									<tr>
-										<td><label><input name="pintuer" type="radio"/>200-299T/H</label></td>
-										<td><label><input name="pintuer" type="radio"/>120-199T/H</label></td>
-										<td><label><input name="pintuer" type="radio"/>80-119T/H</label></td>
-										<td><label><input name="pintuer" type="radio"/>50-79T/H</label></td>
-									</tr>
-									<tr>
-										<td><label><input name="pintuer" type="radio"/>30-49T/H</label></td>
-										<td><label><input name="pintuer" type="radio"/><30T/H</label></td>
-										<td><label><input name="pintuer" type="radio"/>Other</label></td>
-										<td>&nbsp;</td>
-									</tr>
-								</table>
+						<div class="contact_fl"></div>
+							<div class="field xm10">
+								<ul class="contact_cap">
+										<li><label><input name="pintuer" type="radio"/>>650T/H</label></li>
+										<li><label><input name="pintuer" type="radio"/>450-649T/H</label></li>
+										<li><label><input name="pintuer" type="radio"/>400-449T/H</label></li>
+										<li><label><input name="pintuer" type="radio"/>300-399T/H</label></li>
+									
+									
+										<li><label><input name="pintuer" type="radio"/>200-299T/H</label></li>
+										<li><label><input name="pintuer" type="radio"/>120-199T/H</label></li>
+										<li><label><input name="pintuer" type="radio"/>80-119T/H</label></li>
+										<li><label><input name="pintuer" type="radio"/>50-79T/H</label></li>
+									
+									
+										<li><label><input name="pintuer" type="radio"/>30-49T/H</label></li>
+										<li><label><input name="pintuer" type="radio"/><30T/H</label></li>
+										<li><label><input name="pintuer" type="radio"/>Other</label></li>
+										<li>&nbsp;</li>
+								</ul>
 							</div>							
+						</div>
+						<div class="clearfix"></div>
+						<div class="form-group">
+							<div class="label xm2 ">
+								<label class="contact_float contact_n">Name:</label>
+							</div>
+							<div class="field xm10">
+								<input type="text" class="input"/>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="form-group">
+							<div class="label xm2 ">
+								<label class="contact_float contact_n">E-Mail:</label>
+							</div>
+							<div class="field xm10">
+								<input type="text" class="input" placeholder="Your privacy is safe!"/>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="form-group">
+							<div class="label xm2 ">
+								<label class="contact_float contact_n">Country:</label>
+							</div>
+							<div class="field xm10">
+								<input type="text" class="input"/>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="form-group">
+							<div class="label xm2 ">
+								<label class="contact_float contact_n">Tel:</label>
+							</div>
+							<div class="field xm10">
+								<input type="text" class="input"/>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="form-group">
+							<div class="label xm2 ">
+								<label class="contact_float contact_n">Message:</label>
+							</div>
+							<div class="field xm10">
+								<textarea rows="5" class="input" ></textarea>
+							</div>
+						</div>
+						
+
+						<div class="form-group contact_subm">
+							<div class="label xl2 xs2 xm2 xb2">
+								<label class="">&nbsp;</label>
+							</div>
+							<div class="contact_a11"></div>
+							<div class="field xl3 xs4 xm4 xb4">
+								<button class="button contact_sub"><b>Submit</b></button>
+							</div>
+							<div class="field xl2 xs4 xm4 xb4  contact_a">
+								<a href="">Reset</a>
+							</div>
 						</div>
 					</form>
 				</div>
 			</section>
 		</div>
 	</article>
+	<footer class="container-layout">
+		<section class="container">
+			<ul class="line-big">
+				<li class="xs2 xl6">
+					<ul class="about_footer_l">
+						<li>Products</li>
+						<li><img src="./img/about/about_s.png"> Mobile Crushers</li>
+						<li> <img src="./img/about/about_s.png">&nbsp;Stationary Crushers</li>
+						<li><img src="./img/about/about_s.png">&nbsp;Grinding Mill</li>
+						<li><img src="./img/about/about_s.png">&nbsp;Washing & Screening</li>
+						<li><img src="./img/about/about_s.png">&nbsp;Ore Beneficiation</li>
+					</ul>
+				</li>
+				<li class="xs2 xl6">
+					<ul class="about_footer_l">
+						<li>Case</li>
+						<li><img src="./img/about/about_s.png">&nbsp;Asia</li>
+						<li><img src="./img/about/about_s.png">&nbsp;Europe</li>
+						<li><img src="./img/about/about_s.png">&nbsp;Africa</li>
+						<li><img src="./img/about/about_s.png">&nbsp;North America</li>
+						<li><img src="./img/about/about_s.png">&nbsp;Latin America</li>
+						<li><img src="./img/about/about_s.png">&nbsp;Oceania</li>
+					</ul>
+				</li>
+				<li class="xs2 xl6">
+					<ul class="about_footer_l">
+						<li>Solution</li>
+						<li><img src="./img/about/about_s.png">&nbsp;Mobile Crushing Plant</li>
+						<li class="text-unbreak"><img src="./img/about/about_s.png">&nbsp;Construction Crushing Plant</li>
+						<li><img src="./img/about/about_s.png">&nbsp;Metal Ore Crushing Plant</li>
+						<li class="text-unbreak"><img src="./img/about/about_s.png">&nbsp;Artificial Sand Making Plant</li>
+						<li><img src="./img/about/about_s.png">&nbsp;Latin America</li>
+						<li ><img src="./img/about/about_s.png">&nbsp;Industrial Milling Plant</li>
+					</ul>
+				</li>
+				<li class="xs2 xs1-move xl6">
+					<ul class="about_footer_l">
+						<li>News</li>
+						<li>Company News</li>
+						<li>Industry News</li>		
+					</ul>
+				</li>
+				<li class="xs3 xl6">
+					<ul class="about_footer_l about_footer_icon">
+						<li>Contact</li>
+						<li> 
+							<img src="./img/about/about_tel.png"> &nbsp;
+							+86-21-50458961, +86-21-50471909</li>
+						<li>		
+							<img src="./img/about/about_mail.png"> &nbsp;				
+							kefidsh@kefidchina.com
+						</li>	
+						<li>
+							<img src="./img/about/about_p.png"> &nbsp;
+							0086-21-50458962
+						</li>
+						<li><img src="./img/about/about_weixin.png"> &nbsp;kefidmachine</li>	
+						<li><img src="./img/about/about_ss.png"> &nbsp;kefidcrusher</li>
+					</ul>
+				</li>
+
+			</ul>
+		</section>
+		<div></div>
+	</footer>
 </body>
-<script type="text/javascript">
-$(function  () {
-	$("#contact_che").change(function() {
-		if ($("#contact_inp").attr("disabled")) {
-			$("#contact_inp").removeAttr('disabled');
-		}else{
-			$("#contact_inp").attr("disabled",true);
-		}
-	});
-})
-</script>
 </html>

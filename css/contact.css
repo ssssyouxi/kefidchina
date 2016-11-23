@@ -86,14 +86,16 @@ article div div b{
 	margin-bottom: 25px;
 }
 */
-.contact_mat table tr td{
-	padding:7px;
-	margin:0;
-}
 /*.contact_mat table{
 	width:500px;
 }*/
-.contact_mat{
+/*
+.contact_mat table tr td{
+	padding:7px;
+	margin:0;
+}*/
+
+/*.contact_mat{
 	padding-top: 5px;
 }
 
@@ -101,12 +103,103 @@ article div div b{
 	padding:7px;
 	margin:0;
 }
-/*.contact_mat table{
-	width:500px;
-}*/
+
 .contact_cap{
 	padding-top: 5px;
+}*/
+.contact_pro{
+	padding-top: 5px;
 }
+.contact_mat{
+	padding-top: 5px;
+}
+.contact_mat li {
+	padding:0;
+	width:92px;
+	height:32px;
+	float:left;
+}
+.contact_mat #contact_mat_met{
+	width:150px;
+}
+#contact_mat_oth{
+	width: 50px;
+}
+#contact_mat_oth_i{
+	position: relative;
+	bottom:7px;
+	left:10px;
+}
+.contact_c{
+	position: relative;
+	top:14px;
+}
+.contact_cap{
+	padding-top: 18px;
+}
+.contact_cap li{
+	padding-top:0px;
+	width:115px;
+	height:32px;
+	float:left;
+}
+.contact_float{
+	float:right;
+}
+.contact_n{
+	position: relative;
+	top:4px;
+}
+.contact_sub{
+	background-color: #da3003;
+	color:white;
+	width: 137px;
+	height:40px;
+	position: relative;
+
+}
+.contact_sub b{
+		font-size: 14px;
+}
+.contact_a{
+	text-decoration: underline;
+	position: relative;
+	left:62px;
+	top:10px;
+
+}
+.contact_subm{
+	position: relative;
+	top:20px;
+}
+.form-group{
+	margin-bottom:46px;
+}
+@media(max-width: 300px){
+	.contact_sub{
+		
+		float: left;
+	}
+	.contact_a{
+		margin-left:-40px;
+	float: left;
+
+}
+}
+@media(max-width: 350px){
+	.contact_h1{
+		font-size: 30px;
+	}
+}
+@media(max-width: 414px){
+	.contact_sub{
+		margin-left: -21px;
+		float: left;
+	}
+
+}
+
+
 @media(min-width: 760px){
 	.contact_mat table{
 		width: 329px;
@@ -134,4 +227,14 @@ article div div b{
     padding: 5px 20px;
 }
 }
-
+@media(max-width:999px){
+	.contact_float{
+	float:left;
+	}
+	.form-group{
+	margin-bottom:0px;
+}
+}
+.contact_mar{
+	margin-bottom: 30px;
+}
