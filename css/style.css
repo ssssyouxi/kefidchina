@@ -68,3 +68,20 @@ footer{
 .about_footer_icon img{
 	vertical-align: middle;
 }
+@media(max-width: 759px){
+	.about_footer>li:nth-last-child(1){
+		clear:both;
+		float: left;
+	}
+}
+@media(min-width: 760px){
+	.about_footer_l>li:first-child~li{
+		font-size: 12px;
+	}
+}
+@media(min-width: 1000px){
+	.about_footer_l>li:first-child~li{
+		font-size: 14px;
+	}
+
+}
