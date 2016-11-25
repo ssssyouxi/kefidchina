@@ -17,7 +17,7 @@
 
 }
 
-.product_icon{
+.product_icon1{
 	width: 30px;
 	height: 25px;
 	position: absolute;
@@ -29,7 +29,7 @@
 	font-weight: 16px;
 	font-weight: bold;
 }
-.about_des p:last-child{
+.product_des p:last-child{
 	color: red;
 }
 .l1>.box{
@@ -48,4 +48,11 @@
 	.product_center_inname{
 		text-align: left;
 	}
+	.product_list_nav li{
+	font-size: 15px;
+	font-weight: bold;
+	margin-right:15px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
 }
