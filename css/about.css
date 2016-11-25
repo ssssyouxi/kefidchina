@@ -1,5 +1,5 @@
 /*主内容区*/
-.profile{background:url(../img/about/profile-xl.jpg) no-repeat center;height: 500px}
+/*.profile{background:url(../img/about/profile-xl.jpg) no-repeat center;}*/
 .about_b .mt div{
 	margin-top:20px;
 }
@@ -27,15 +27,38 @@ h2{
 }
 
 /*媒体查询*/
+@media (max-width: 500px){
+	.profile{
+		background:url(../img/about/profile-xll.jpg) no-repeat center;height: 700px;
+		}
+	.profile h1{
+		padding-top: 20px;
+	}
+	}
+
+@media (max-width: 759px){
+	.profile{
+		background:url(../img/about/profile-xl.jpg) no-repeat center; height: 500px;
+		}
+	.profile h1{
+		padding-top: 20px;
+	}
+	}
 @media (min-width: 760px){
 	.profile{
-		background:url(../img/about/profile-xs.jpg) no-repeat center;height: 382px
+		background:url(../img/about/profile-xs.jpg) no-repeat center;height: 382px;
 		}
+	.profile h1{
+		padding-top: 40px;
+	}
 	}
 @media(min-width: 1000px){
 	.profile{
-		background:url(../img/about/profile-xb.jpg) no-repeat top center;
+		background:url(../img/about/profile-xb.jpg) no-repeat top center;height: 382px;
 		}
+	.profile h1{
+		padding-top: 40px;
+	}
 	}
 @media(min-width: 1200px){
 	.profile h1{padding: 45px 0 35px;font-size: 32px;}
