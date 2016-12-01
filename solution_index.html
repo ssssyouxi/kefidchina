@@ -17,6 +17,7 @@
     <script src="./js/jquery.js"></script>
     <script src="./js/pintuer.js"></script>
     <script src="./js/respond.js"></script>
+    <script src="./js/solution.js"></script>
     <!-- <link rel="prefetch" href="预加载的图片" /> -->
 </head>
 <body>
@@ -229,28 +230,4 @@
 		<div></div>
 	</footer>
 </body>
-<script>
-	$(function(){
-		var w=$(".img-responsive").width();
-		$(".solution_flo").width(w);
-		var pl=($(".solution_div").width()-$(".img-responsive").width())*0.5;
-		$(".img-responsive").css('padding-left', pl);
-		$(".solution_flo").css('margin-left',pl);
-		//var p_pl=($(".solution_flo").width()-$(".solution_flo p").width())*0.5;
-		//$(".solution_flo p").css('left',p_pl);
-		var p_lh=$(".solution_flo").height();
-		// alert(p_lh);
-		$(".solution_flo p").css('line-height',p_lh+"px");
-		//var p_h=($(".solution_flo").height()-$(".solution_flo p").height())*0.5;
-		//alert(p_h);
-		//$(".solution_flo p").css('top',p_h);
-})
-	
-	// $(".solution_div").mouseenter(function(){
-	// 	$(this).find('.solution_flo').css('background-color','rgba(255,53,0,0.5)');
-	// })
-	// $(".solution_div").mouseleave(function(){
-	// 	$(this).find('.solution_flo').css('background-color','rgba(47,52,67,0.5)');
-	// })
-</script>
 </html>
