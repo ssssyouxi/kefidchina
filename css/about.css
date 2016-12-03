@@ -25,7 +25,9 @@ h2{
 .about_l img{
 	width: 100%;
 }
-
+ .img-responsive{
+	margin: 0 auto;
+}
 /*媒体查询*/
 @media (max-width: 500px){
 	.profile{
@@ -33,6 +35,10 @@ h2{
 		}
 	.profile h1{
 		padding-top: 20px;
+	}
+	.about_b .p_b{
+	font-size: 14px;
+	
 	}
 	}
 
@@ -51,6 +57,13 @@ h2{
 	.profile h1{
 		padding-top: 40px;
 	}
+	.about_b .p_b{
+	background: #f8f8f8;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 7px 15px 7px;
+
+	}
 	}
 @media(min-width: 1000px){
 	.profile{
@@ -59,6 +72,13 @@ h2{
 	.profile h1{
 		padding-top: 40px;
 	}
+	.about_b .p_b{
+	background: #f8f8f8;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 7px 30px 7px;
+
+}
 	}
 @media(min-width: 1200px){
 	.profile h1{padding: 45px 0 35px;font-size: 32px;}
