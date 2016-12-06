@@ -79,7 +79,7 @@
 				<div class="xm4 xl12 product_wel">
 					<h1>Welcome to Kefid</h1>
 					<hr/>
-					<h3>cases for you</h3>
+					<h3>Cases for you</h3>
 					<p>Kefid has exported more than 100 sets of mineral processing plant to many countries, including Australia, Papua New Guinea, Indonesia, Mongolia, Malaysia, Russia, Uzbekistan, Oman, Egypt, Kenya, Saudi Arabic, Algeria, Bolivia, Mexico, Colombia, Peru, Chile, El Salvador, Ecuador, Paraguay, Venezuela, and so on. Contact us to check whether we have working site in your country. </p>
 					<div><i class="icon icon-angle-right" aria-hidden="true"></i>&nbsp;
 						<a href="">More Cases of Kefid</a> 
@@ -211,8 +211,7 @@
 						<img src="./img/product/product_index_icon.jpg">
 						<div class="product_des">
 							<p>Impact Crusher</p>
-							<p>
-								OUTPUT SIZE: Depends on the material
+							<p>OUTPUT SIZE: Depends on the material
 								PRODUCTION CAPACITY: Up to 350TPH
 								PROCESSED MATERIALS:
 								Limestone, rock, granite, clinker, slag, bank gravel, coa.,etc
@@ -622,12 +621,13 @@
 	// });
 	$('.product_icon').mouseenter(function(event){
 		// event.stopPropagation()
-		
+		$(this).children('img').attr('src','./img/product/icon.png');
 		$(this).children('.product_des').slideDown(300)
 		// a = $(this).children('.product_des')
 		// $('.product_des').not(a).css('display','none')
 
 	}).mouseleave(function(){
+		$(this).children('img').attr('src','./img/product/product_index_icon.jpg');
 		$(this).children('.product_des').slideUp(0)
 	});
 	}

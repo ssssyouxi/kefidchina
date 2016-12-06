@@ -67,7 +67,7 @@
 		<hr/>
 		<section class="product_list">
 			<ul class="product_list_nav">
-				<li class="float-left"><a href="">Mobile Crushing Plant</a></li>
+				<li class="float-left"><a href="" class="text-red">Mobile Crushing Plant</a></li>
 				<li class="float-left"><a href="">Stationary Crushing Plant</a></li>
 				<li class="float-left"><a href="">Grinding Mill</a></li>
 			</ul>
@@ -823,12 +823,13 @@
 	// });
 	$('.product_icon').mouseenter(function(event){
 		// event.stopPropagation()
-		
+		$(this).children('img').attr('src','./img/product/icon.png');
 		$(this).children('.product_des').slideDown(300)
 		// a = $(this).children('.product_des')
 		// $('.product_des').not(a).css('display','none')
 
 	}).mouseleave(function(){
+		$(this).children('img').attr('src','./img/product/product_index_icon.jpg');
 		$(this).children('.product_des').slideUp(0)
 	});
 	}

@@ -2,14 +2,18 @@
 	font-weight: bold;
 	font-size: 36px;
 	padding-bottom:8px;
-	margin-top: 70px;
+	margin-top: 50px;
 }
 .product_list_nav li{
 	font-size: 16px;
 	font-weight: bold;
 	margin-right:62px;
-	margin-top:14px;
+	padding-top:20px;
+	margin-top: -11px;
 	margin-bottom: 25px;
+}
+.product_list_nav li:first-child{
+	border-top:2px red solid;
 }
 .product_center_pic .box{
 	position: relative;
@@ -32,17 +36,20 @@
 .product_des p:last-child{
 	color: red;
 }
-.l1>.box{
+.product_list .l1>.box{
 	margin-top: 50px;
 }
-.l2{
+.product_list .l2{
 	margin-top: 50px;
 }
-.l2>.box{
+.product_list .l2>.box{
 	margin-top:25px;
 }
-.l3{
+.product_list .l3{
 	margin-top: 50px;
+}
+.product_list .line-big:last-child{
+	margin-bottom: 40px;
 }
 @media (max-width: 760px){
 	.product_center_inname{
