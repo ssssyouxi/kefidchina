@@ -2,11 +2,11 @@
 .case_article_pic div{
 	margin-top: 35px;
 }
-.case_article_message button{
+.case_article_message>a:first-child{
 	padding-right: 45px;
 	padding-left: 45px;
 }
-.case_article_message a{
+.case_article_message>a:last-child{
 	display: block;
 	float:left;
 	margin-top: 10px;
@@ -14,7 +14,11 @@
 	text-decoration: underline;
 }
 .case_article_des dt{
+	font-size: 16px;
 	margin-top: 20px;
+}
+.case_article_des dd{
+	line-height: 24px;
 }
 .case_article_des dt:first-child{
 	margin-top: 50px;
@@ -37,11 +41,11 @@
 .case_article_related{
 	margin-bottom: 45px;
 }
-.about_footer_l>li:first-child{
+.about_footer_l>li:first-child a{
 	color: red;
 }
 @media(max-width: 350px){
-	.case_article_message a{
+	.case_article_message>a:last-child{
 		clear:both;
 		margin-left: 0px;
 	}
