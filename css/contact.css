@@ -74,7 +74,7 @@ article div div b{
 	padding-top: 9px;
 }
 .contact_s2 p{
-	padding-top: 32px;
+	padding-top: 36px;
 }
 .contact_form{
 	color: #2f3443;
@@ -151,7 +151,7 @@ article div div b{
 	top:4px;
 }
 .contact_sub{
-	background-color: #da3003;
+	background-color: #da3003 !important;
 	color:white;
 	width: 137px;
 	height:40px;
@@ -171,6 +171,20 @@ article div div b{
 .contact_subm{
 	position: relative;
 	top:20px;
+}
+form{
+	position:relative;
+	right: 20px;
+}
+@media(max-width: 1200px){
+	form{
+		right: 4px;
+	}
+}
+@media(max-width: 1000px){
+	form{
+		right: 10px;
+	}
 }
 .form-group{
 	margin-bottom:46px;

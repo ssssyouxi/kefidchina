@@ -22,9 +22,11 @@ nav img{
 #nav-link1{
 	z-index: 999;
 	position: relative;
+
 }
 #nav-link1 li{
 	padding-left: 7px;
+
 }
 .n-r{
 	position: relative;
@@ -39,7 +41,29 @@ button{
 .nb-d div p{
 	padding-top: 7px;
 }
+.con_focus{
+	background-image: url('../img/public/nav.png');
+	background-repeat: no-repeat;
+	background-position: 58% 100%;
+}
+.con_focus1{
+	background-image: url('../img/public/nav.png');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+.con_focus2{
+	background-image: url('../img/public/nav.png');
+	background-repeat: no-repeat;
+	background-position: 69% 100%;
+}
+li{
+	overflow: visible;
+}
+
 @media(min-width: 760px){
+	#nav-link1,#nav-link1 li{
+		height: 43px;
+	}
 	.nav-inline li a {
     	padding: 5px 7px;
 }
