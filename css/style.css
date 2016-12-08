@@ -85,6 +85,16 @@ footer{
 .about_footer_icon img{
 	vertical-align: middle;
 }
+.about_footer{
+	padding-bottom: 20px;
+}
+.footer_b{
+	
+	background:#efefef;
+}
+.footer_b div{
+	line-height: 40px;
+}
 @media(max-width:440px){
 	.about_footer li{
 		clear:both;
@@ -95,15 +105,32 @@ footer{
 		clear:both;
 		float: left;
 	}
+	.footer_b_r{
+		float:left;
+		line-height: 0px;
+	}
+	.footer_b_l,.footer_b_r{
+		font-size: 10px;
+		
+	}
+	.footer_b div{
+	line-height: 30px;
+	}
 }
 @media(min-width: 760px){
 	.about_footer_l>li:first-child~li{
-		font-size: 12px;
+		
+	}
+	.footer_b_r{
+		float:left;
 	}
 }
 @media(min-width: 1000px){
 	.about_footer_l>li:first-child~li{
-		font-size: 14px;
+	
+	}
+	.footer_b_r{
+		float:right;
 	}
 
 }
