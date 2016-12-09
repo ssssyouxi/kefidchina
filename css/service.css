@@ -7,6 +7,11 @@ h1{
 	padding-top:27px;
 	height:73px
 }
+.contact{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;height: auto;
+}
 .service_tec{
 	margin-top: 38px;
 	position: relative;
@@ -36,6 +41,9 @@ h1{
 	padding:0 10%;
 	padding-top: 20%;
 }
+.pic-list{position: relative;
+         overflow: hidden;
+         }
 .s2{
 		display: none;
 		margin-top: 5px;
@@ -77,7 +85,7 @@ h1{
 .service_pro_pro{
 	position: absolute;
 	bottom:0;
-	width: 371px;
+	width: 100%;
 	height:35%;
 	background-color: rgba(222,101,82,0.8);
 	padding: 3% 6%;
@@ -109,6 +117,8 @@ h1{
 	.s2{
 		display: inline;
 	}
+
+
 }
 
 
@@ -129,13 +139,11 @@ h1{
 	padding-top: 14%;
 }
 .service_pro_pro{
-	width: 355px;
+		padding: 0;
 }
+.service_pro_p1,.service_pro_p2{
+		padding-left: 10px;
 }
-@media(max-width: 760px){
-	.service_pro_pro{
-		width: 371px ;
-	}
 }
 @media(min-width: 1000px){
 .nav-inline li a {
@@ -148,6 +156,11 @@ h1{
 	font-size: 12px;
 }
 }
+@media(min-width: 1200px){
+	.service_pro_pro{
+		width:371px;
+	}
+}
 @media(min-width:1215px){
 	.service_tec_sup span{
 	font-size: 22px;
@@ -156,18 +169,13 @@ h1{
 	font-size: 14px;
 }
 }
-@media(max-width:411px){
-		.service_pro_pro{
-		width:340px;
+@media(max-width: 760px){
+	.img-responsive{
+		margin:0 auto;
 	}
 }
-@media(max-width:320px){
-		.service_pro_pro{
-		width:300px;
-	}
-}
-@media(max-width:310px){
-		.service_pro_pro{
-		width:95%;
+@media(max-width: 330px){
+	.service_pro_p1,.service_pro_p2{
+		line-height: 18px;
 	}
 }
