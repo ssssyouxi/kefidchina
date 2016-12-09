@@ -172,9 +172,19 @@ article div div b{
 	position: relative;
 	top:20px;
 }
+.form_change{
+	position: relative;
+	top:2px;
+	margin-right: 1px;
+}
 form{
 	position:relative;
 	right: 20px;
+}
+@media(min-width: 1200px){
+	h4{
+		width:90%;
+	}
 }
 @media(max-width: 1200px){
 	form{
