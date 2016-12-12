@@ -19,7 +19,6 @@ section{
 }
 .news_tit1 a{
 	font-size: 18px;
-	color: #2f3443;
 	line-height: 28px;
 }
 
@@ -39,9 +38,7 @@ section{
 	margin-bottom: 0;
 	margin-top: 10px;
 }
-.news_tit4 a,.news_cha{
-	color: #2f3443;
-}
+
 .news_tit5{
 	color: #2f3443;
 	font-size: 12px;

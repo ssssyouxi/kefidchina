@@ -56,6 +56,23 @@ button{
 	background-repeat: no-repeat;
 	background-position: 69% 100%;
 }
+@media(max-width: 1000px){
+	.con_focus1{
+	background-image: url('../img/public/nav1.png');
+	background-position: 10px 100%;
+	}
+	.con_focus{
+	background-position: 15px 100%;
+	}
+	.con_focus2{
+	background-position: 4px 100%;
+	}
+	.con_focus3{
+	background-image: url('../img/public/nav.png');
+	background-repeat: no-repeat;
+	background-position: 9px 100%;
+	}
+}
 li{
 	overflow: visible;
 }
@@ -118,6 +135,11 @@ footer{
 }
 .footer_b div{
 	line-height: 40px;
+}
+@media(max-width: 760px){
+	.con_focus,.con_focus1,.con_focus2,.con_focus3{
+		background-image: none;
+	}
 }
 @media(max-width:440px){
 	.about_footer li{
