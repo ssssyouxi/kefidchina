@@ -2,9 +2,9 @@ window.onload=function(){
 		var w=$(".img-responsive").width();
 		$(".solution_flo").width(w);
 		//获取padding-left的值
-		var pl=($(".solution_div").width()-$(".img-responsive").width())*0.5;
-		$(".img-responsive").css('padding-left', pl);
-		$(".solution_flo").css('margin-left',pl);
+		// var pl=($(".solution_div").width()-$(".img-responsive").width())*0.5;
+		// $(".img-responsive").css('padding-left', pl);
+		// $(".solution_flo").css('margin-left',pl);
 		//获取p的line-height的值
 		var p_lh=$(".solution_flo").height();
 		$(".solution_flo p").css('line-height',p_lh+"px");
@@ -15,8 +15,8 @@ window.onload=function(){
 			var w=$(".img-responsive").width();
 			$(".solution_flo").width(w);
 			$(".img-responsive").css('margin', '0 auto');
-			var pl=($(".solution_div").width()-$(".img-responsive").width())*0.5;
-			$(".solution_flo").css('margin-left',pl);
+			// var pl=($(".solution_div").width()-$(".img-responsive").width())*0.5;
+			// $(".solution_flo").css('margin-left',pl);
 			var p_lh=$(".solution_flo").height();
 			$(".solution_flo p").css('line-height',p_lh+"px");
 		}
