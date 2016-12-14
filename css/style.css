@@ -16,7 +16,7 @@ header a:hover{color: #fff;}
 nav{height:62px;}
 
 nav img{
-	position: relative;left: 4px;top: 12px;
+	position: relative;/*left: 4px;*/top: 12px;
 }
 #but{
 	margin-top: 17px;
@@ -27,7 +27,7 @@ nav img{
 
 }
 #nav-link1 li{
-	padding-left: 10px;
+	padding-left: 9px;
 
 }
 .n-r{
@@ -77,6 +77,11 @@ button{
 }
 li{
 	overflow: visible;
+}
+@media(max-width: 1000px){
+	nav img{
+	left: 19%;
+}
 }
 @media(max-width: 760px){
 	.fixed-top{
