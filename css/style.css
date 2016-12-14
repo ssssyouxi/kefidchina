@@ -4,6 +4,8 @@ header a i{padding-right: 9px;font-size: 16px;}
 header a{display: inline-block;padding-top: 6px;color: #868d9e;}
 header a:hover{color: #fff;}
 .h-l{padding-right: 30px;}
+.doc-header,.doc-naver{z-index: 100000}
+.doc-naver{background: #fff}
 @media (max-width: 279px){
 	header{display: none;}
 }
@@ -11,10 +13,10 @@ header a:hover{color: #fff;}
 /*header end*/
 
 /*nav start*/
-nav{height:63px;}
+nav{height:62px;}
 
 nav img{
-	position: relative;left: 4px;top: 12px;
+	position: relative;/*left: 4px;*/top: 12px;
 }
 #but{
 	margin-top: 17px;
@@ -25,7 +27,7 @@ nav img{
 
 }
 #nav-link1 li{
-	padding-left: 7px;
+	padding-left: 9px;
 
 }
 .n-r{
@@ -76,10 +78,30 @@ button{
 li{
 	overflow: visible;
 }
-
+@media(max-width: 1000px){
+	nav img{
+	left: 19%;
+}
+}
+@media(max-width: 760px){
+	.fixed-top{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;}
+	#but{
+		position: relative;
+		right:10px;
+	}
+	#nav-link1{
+		bottom:20px;
+}
+	nav img{
+		left:10px;
+	}
+}
 @media(min-width: 760px){
 	#nav-link1,#nav-link1 li{
-		height: 43px;
+		height: 42px;
 	}
 	.nav-inline li a {
     	padding: 5px 7px;
