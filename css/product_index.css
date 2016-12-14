@@ -1,8 +1,9 @@
 .product_title{
-	font-weight: bold;
-	font-size: 36px;
-	padding-bottom:8px;
-	margin-top: 50px;
+	font-family:  "estrangelo edessa",Arial,"Times New Roman",Georgia;
+	/*font-weight: bold;*/
+	font-size: 34px;
+	padding-bottom:0px;
+	margin-top: 27px;
 }
 .product_list_nav li{
 	font-size: 16px;
@@ -13,7 +14,7 @@
 	margin-bottom: 25px;
 }
 .product_list_nav li:first-child{
-	border-top:2px red solid;
+	border-top:2px #da3003 solid;
 }
 .product_center_pic .box{
 	position: relative;
@@ -29,12 +30,12 @@
 .product_center_inname{
 	margin-top: -30px;
 	text-align: center;
-	color: red;
-	font-weight: 16px;
+	color: #da3003;
+	font-size: 16px;
 	font-weight: bold;
 }
 .product_des p:last-child{
-	color: red;
+	color: #da3003;
 }
 .product_list .l1>.box{
 	margin-top: 50px;

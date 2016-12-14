@@ -11,9 +11,10 @@
 	
 }
 .case_index_title{
-	font-size: 22px;
+	font-family:  "estrangelo edessa",Arial,"Times New Roman",Georgia;
+	font-size: 34px;
 	color: #414141;
-	margin-top: 30px;
+	margin-top: 24px;
 
 }
 .doc-logo {
@@ -21,7 +22,7 @@
 
 }
 .case_index_plist div{
-	margin-top: 40px;
+	margin-top: 30px;
 }
 .case_index_plist img{
 	width: 100%
@@ -29,6 +30,8 @@
 .case_index_plist p{
 	font-size: 14px;
 	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 0px;
 }
 
 .page{
@@ -39,7 +42,7 @@
 }
 .case_index_nav{
 	position: relative;
-	z-index: 10000;
+	z-index: 100;
 }
 .case_index_h{
 	height: 0px;
