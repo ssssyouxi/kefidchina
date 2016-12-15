@@ -1,3 +1,6 @@
+.img-responsive{
+	width:100%;
+}
 .service_mar{
 	margin-bottom: 30px;
 }
@@ -37,7 +40,7 @@ h1{
 	padding-bottom: 2%;
 }
 .service_tec_sup p{
-	color:#888886;
+	color:#525252;
 	padding:0 10%;
 	padding-top: 20%;
 }
@@ -117,18 +120,8 @@ h1{
 	.s2{
 		display: inline;
 	}
-
-
 }
-
-
-@media(min-width: 760px){
-	.nav-inline li a {
-    	padding: 5px 7px;
-}
-
-}
-@media(max-width: 1000px){
+@media(max-width: 999px){
 	.service_tec_sup span{
 	font-size: 13px;
 	top:8%;
@@ -146,20 +139,12 @@ h1{
 }
 }
 @media(min-width: 1000px){
-.nav-inline li a {
-    padding: 5px 20px;
-}
 	.service_tec_sup span{
 	font-size: 19px;
 }
 .service_tec_sup p{
 	font-size: 12px;
 }
-}
-@media(min-width: 1200px){
-	.service_pro_pro{
-		width:371px;
-	}
 }
 @media(min-width:1215px){
 	.service_tec_sup span{
@@ -172,6 +157,12 @@ h1{
 @media(max-width: 760px){
 	.img-responsive{
 		margin:0 auto;
+	}
+	.service_pro_p1{
+		font-size: 20px;
+	}
+	.service_pro_p2{
+		font-size: 15px;
 	}
 }
 @media(max-width: 330px){
