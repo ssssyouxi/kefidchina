@@ -30,7 +30,9 @@ h1{
 .solution_flo p{
 	background-color: rgba(47,52,67,0.5);
 }
-
+.solution_flo a,.solution_flo a:hover{
+	color: white;
+}
 @media(max-width: 450px){
 	.solution_flo p{
 		font-size: 20px;

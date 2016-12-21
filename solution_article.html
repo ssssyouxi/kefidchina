@@ -64,11 +64,11 @@
 			<section class="sec_1">
 				<h1 class="xl12 xs4 xm4 xb4"><b>Pebble Processing Line</b></h1>
 				<div class="xl12 xs8 xm8 xb8">
-					<p class="xl12 xs2 xm4 xb1"><a href="#intro">Intro</a></p>
-					<p class="xl12 xs5 xm4 xb3"><a href="#crushing">Crushing Processing Flow </a></p>
-					<p class="xl12 xs4 xm4 xb2"><a href="#app">Application</a></p>
-					<p class="xl12 xs5 xm4 xb3"><a href="#necessary">Necessary Equipments</a></p>
-					<p class="xl12 xs4 xm4 xb3"><a href="#process">Process Description</a></p></div>
+					<p class="xl12 xs2 xm4 xb1">Intro</p>
+					<p class="xl12 xs5 xm4 xb3">Crushing Processing Flow </p>
+					<p class="xl12 xs4 xm4 xb2">Application</p>
+					<p class="xl12 xs5 xm4 xb3">Necessary Equipments</p>
+					<p class="xl12 xs4 xm4 xb3">Process Description</p></div>
 				<div class="clearfix"></div>
 			</section>
 			<!--intro-->
@@ -219,4 +219,10 @@
 		
 	</div>
 </body>
+<script>
+		$(".xs8 p ").click(function(){
+			var far=$(this).index()+1;
+			$("body").animate({scrollTop: $(".line-big section").eq(far).position().top-110}, 1000);
+		})
+</script>
 </html>
