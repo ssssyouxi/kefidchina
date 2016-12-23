@@ -184,20 +184,25 @@
 			</div>
 			<div class="xs12 xm9 product_article_b_right">
 				<ul class="text-center product_info">
-					<li class="float-left">INTRODUCTION<br>
-					<img src="./img/product/product_article_down.jpg">
+					<li class="float-left choose">INTRODUCTION<br>
+						&nbsp;
 					</li>
-					<li class="float-left">Features</li>
-					<li class="float-left">TECHNICAL SPECIFICATIONS</li>
+					<li class="float-left notchoose">Features<br>
+						&nbsp;
+					</li>
+					<li class="float-left notchoose">TECHNICAL SPECIFICATIONS<br>
+						&nbsp;
+					</li>
 				</ul>
 				<div class="clearfix"></div>
-				<p>
+				<p class=" mouse">
 					JC series Jaw Crushers are widely used in mine, building materials, chemical industry, metallurgy, whose compressive strength is below 320Mpa. JC series Jaw Crusher can be divided into coarse crusher and fine crusher with world-wide advanced crushing technology and producing standard and the JC series Jaw Crusher can crush the material with high hardness and strong abrasive efficiently.
 				</p>
-				<p>
+				<p class="mouse asd">
 					Mm to inch conversion: 25.4millimeters=1 inch
 				</p>
-					<div class="table-responsive">
+					<div class="table-responsive  mouse asd">
+					<p>&nbsp;</p>
 						<table class="table table-bordered text-center product_article_table table-condensed">
 							<tbody>
 								<tr>
@@ -428,5 +433,18 @@
 		$(this).next('span').next('ul').toggle()
 		$(this).toggleClass('tm');
 	});
+	$(".product_info li").mouseenter(function(){
+		var obj = $(this).index();
+		$(this).removeClass('notchoose').addClass('choose');
+		$(".product_info li").not($(this)).removeClass('choose').addClass('notchoose');
+		$(".product_article_b_right .mouse").hide();
+		$(".product_article_b_right .mouse").eq(obj).show();
+	})
+	if($(window).width()<760){
+		$(".product_info li").mouseenter(function(){
+		$(this).removeClass('notonchoose').addClass('onchoose');
+		$(".product_info li").not($(this)).removeClass('onchoose').addClass('notonchoose');
+	})
+	}
 </script>
 </html>
