@@ -2,7 +2,7 @@ $(function(){
 	if($(window).width()<1200 && $(window).width()>=1000){
 		$(".service_pro_pro").css('padding-left','11px');
 	}
-	if($(window).width()<1000 && $(window).width()>=750){
+	if($(window).width()<1200 && $(window).width()>=750){
 		$(".service_pro_p2").css('line-height','11px');
 	}
 	 if($(window).width()<760){

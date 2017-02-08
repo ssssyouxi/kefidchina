@@ -23,20 +23,27 @@ section{
 }
 .sec_2 .xb9 p{
 	margin-top: 25px;
+	padding-left: 2px;
 }
 .sec_3 div h2,.sec_4 div h2,.sec_6 div h2{
 	font-size: 22px;
 	color:#3b3b3b;
+	padding-top: 13px;
+	padding-left: 1px;
 }
 h3{
 	color: #343333;
 	margin-bottom: 10px;
-	margin-top: 10px;
+	margin-top: 0px;
+	line-height: 31px;
 }
 .solution_p{
-	margin-top: 30px;
-	margin-bottom: 20px;
+	margin-top: 45px;
 	color: #343333;
+}
+.sec_4 p{
+		margin-bottom: 18px;
+		padding-left: 1px;
 }
 .solution_intro{
 	background-color: #f6f6f6;
@@ -64,11 +71,97 @@ h3{
 h2{
 	margin-bottom: 20px;
 }
+h4{
+		text-align: center;
+	}
 @media(max-width: 767px){
 	.img-responsive{
 		width: 100%;
 	}
-	h4{
-		text-align: center;
+	
+}
+@media(min-width: 1200px){
+	.sec_1{
+		margin-top: 57px;
+	}
+	.sma ul li{
+		display:inline-block;padding:5px 16.5px 0;width:auto;
+	}
+	.sma ul li:nth-child(1){
+		padding-left: 25.5px;
+	}
+	.sma ul li:nth-child(5){
+		padding-right: 0;
+	}
+	.sec_2{
+		margin-top: 10px;
+	}
+	.sec_2 div h2 {
+    margin-top: 22px;
+    padding-bottom: 3px;
+	}
+	.xl12.xs8.xm8.xb8.sma{
+		padding-left:85px;
+		padding-right: 0; 
+	}
+	.xs12.xm9.xb9{
+		padding-left: 13px;
+	}
+	.sec_3 .xm9.xb9{
+		padding-top: 13px;
+		padding-left: 17px;
+	}
+	.sec_4 div h2{
+	padding-top: 0px;
+	}
+	.sec_4{
+		margin-top: 29px;
+	}
+	.sec_4 .xm6.xb6{
+		padding-top: 6px;
+	}
+	.sec_4 .img2{
+		position: relative;
+	    left: 3px;
+	    bottom: 2px;
+	}
+	.sec_5{
+		margin-top: 49px;
+	}
+	.sec_5 img{
+		margin :0 auto;
+	}
+	.sec_5 div:nth-child(2),.sec_5 div:nth-child(3),.sec_5 div:nth-child(4){
+		margin-top: 10px;
+	}
+	.sec_5 div:nth-child(2){
+		padding-left: 19px;
+    	padding-top: 1px;
+	}
+	.sec_5 div:nth-child(3){
+		padding-left: 21px;
+    	padding-top: 6px;
+    	padding-right: 13px;
+	}
+	.sec_5 div:nth-child(4){
+		padding-left: 0px;
+		padding-top: 3px;
+	}
+	.sec_6 .xb12{
+		padding-left: 0;
+	}
+	.sec_6 div h2{
+		    padding-top: 7px;
+	}
+	.sec_6 .xb9{
+		margin-top: 12px;
+		padding-left: 17px;
+	}
+	.sec_6 .xb12 p{
+		margin-bottom: 25px;
+	}
+	.sec_6 img{
+		margin-top: 12px;
+		margin-bottom: 28px;
 	}
 }

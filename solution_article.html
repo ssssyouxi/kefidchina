@@ -63,20 +63,31 @@
 			<!--锚点起点-->
 			<section class="sec_1">
 				<h1 class="xl12 xs4 xm4 xb4"><b>Pebble Processing Line</b></h1>
-				<div class="xl12 xs8 xm8 xb8">
-					<p class="xl12 xs2 xm4 xb1">Intro</p>
-					<p class="xl12 xs5 xm4 xb3">Crushing Processing Flow </p>
-					<p class="xl12 xs4 xm4 xb2">Application</p>
-					<p class="xl12 xs5 xm4 xb3">Necessary Equipments</p>
-					<p class="xl12 xs4 xm4 xb3">Process Description</p></div>
+				<div class="xl12 xs8 xm8 xb8 sma">
+					<ul>
+					<li><p><a href="#">Intro</a></p></li>
+					<li><p><a href="#">Crushing Processing Flow </a></p></li>
+					<li><p><a href="#">Application</a></p></li>
+					<li><p><a href="#">Necessary Equipments</a></p></li>
+					<li><p><a href="#">Process Description</a></p></li>
+					</ul>
+				</div>
+				
 				<div class="clearfix"></div>
 			</section>
+			</div></article>
+			
+			<div class="solution_intro">
+			<article class="container bg1 ">
+		<div class="line-big">
 			<!--intro-->
-			<section class="solution_intro sec_2" id="intro">
+			<section class=" sec_2" id="intro">
 				<div class="xs12 xm3 xb3"><img src="./img/solution/intro.png" height="189" width="270" class="img-responsive "></div>
 				<div class="xs12 xm9 xb9"><h2><b>Intro</b></h2><p>Pebble is clast of rock with a particle size of 2 to 64 millimeters based on the Krumbein phi scale of sedimentology. Pebbles are used for water purification, sewage treatment, electricity, garden items. Also supply the excellent raw auxiliary material for ceramics, precision casting, paper, sprayed grinding, chemicals, silicon, national defense, etc.</p></div>
 				<div class="clearfix"></div>
-			</section>
+			</section></div></article></div>
+	<article class="container">
+		<div class="line-big">
 			<!--crushing-->
 			<section class="sec_3" id="crushing">
 				<div class="xm3 xb3"><h2><b>Crushing Processing Flow</b></h2></div>
@@ -89,7 +100,7 @@
 				<div class="xm6 xb6"><img src="./img/solution/application.png" class="img-responsive"></div>
 				<div class="xb3">
 					<h3><b>KEFID 150tph sandmaking line in Ghana</b></h3>
-					<img src="./img/solution/puzzle.png" height="2" width="28"/>
+					<img src="./img/solution/puzzle.png" height="2" width="28" class="img2"/>
 					<p class="solution_p">MATERIAL: Pebble</p>
 					<p>OUTPUT SIZE: 0-5-13-19mm</p>
 					<p>MAX FEED SIZE: 630mm</p>
@@ -220,7 +231,7 @@
 	</div>
 </body>
 <script>
-		$(".xs8 p ").click(function(){
+		$(".sma ul li").click(function(){
 			var far=$(this).index()+1;
 			$("body").animate({scrollTop: $(".line-big section").eq(far).position().top-110}, 1000);
 		})
