@@ -61,6 +61,7 @@
 	</div>
 	<article class="container">
 		<h1 class="border-bottom contact_h1"><b>Contact Us & Feedback</b></h1>
+		<h2 class="border-bottom contact_h1  contact_h2"><b>Contact Us & Feedback</b></h2>
 		<div class="line-big contact_mar">
 			<section class="xs6 ">
 				<h4 class="border-bottom contact_h4"><b>ShangHai,China</b></h4>
@@ -115,13 +116,26 @@
 					<p>Contact us now if you have any question about our company and products. Any of your enquiry and suggestion will be highly appreciated.</p>
 				</div>
 				<div class="contact_form line">
-					<form method="post" action="#" >
+					<form method="post" action="http://data.kefid.com/Actionsh.php" name="msgForm">
 						<div class="form-group">
 							<div class="label xm2 contact_pro">
 								<label class="contact_float">Products:</label>
 							</div>
 							<div class="field xm10">
-								<input type="text" class="input radius-none"/>
+								<!-- <input type="text" class="input radius-none"/> -->
+								<select class="input radius-none" name="product">
+						          <option>Select  Equipment</option>
+						          <option value="Mobile Crusher">Mobile Crusher</option>
+						          <option value="Jaw Crusher">Jaw Crusher</option>
+						          <option value="Cone Crusher">Cone Crusher</option>
+						          <option value="Impact Crusher">Impact Crusher</option>
+						          <option value="Grinding Mill ">Grinding Mill </option>
+						          <option value="Sand Making Machine">Sand Making Machine</option>
+						          <option value="Sand Washing Machine">Sand Washing Machine</option>
+						          <option value="Sand Washing Machine">Production Line</option>
+						          <option value="Vibrating Screen">Vibrating Screen</option>
+						          <option value="Feeder">Feeder</option>
+								</select>
 							</div>
 						</div>
 						<div class="clearfix"></div>
@@ -132,29 +146,29 @@
 							<div class="contact_fl"></div>
 							<div class="field xm10">
 							<ul class="contact_mat line">
-									<li><label><input type="checkbox" class="form_change">Basalt</label></li>
-									<li><label><input type="checkbox" class="form_change">Barite</label></li>
-									<li><label><input type="checkbox" class="form_change">Calcite</label></li>
-									<li><label><input type="checkbox" class="form_change">Coal</label></li>
-									<li><label><input type="checkbox" class="form_change">Dolomite</label></li>
+									<li><label><input name="mType" value="Basalt" type="checkbox" class="form_change">Basalt</label></li>
+									<li><label><input name="mType" value="Barite" type="checkbox" class="form_change">Barite</label></li>
+									<li><label><input name="mType" value="Calcite" type="checkbox" class="form_change">Calcite</label></li>
+									<li><label><input name="mType" value="Coal" type="checkbox" class="form_change">Coal</label></li>
+									<li><label><input name="mType" value="Dolomite" type="checkbox" class="form_change">Dolomite</label></li>
 								
-									<li><label><input type="checkbox" class="form_change">Feldspar</label></li>
-									<li><label><input type="checkbox" class="form_change">Gypsum</label></li>
-									<li><label><input type="checkbox" class="form_change">Granite</label></li>
-									<li><label><input type="checkbox" class="form_change">Gracel</label></li>
-									<li><label><input type="checkbox" class="form_change">Limestone</label></li>
+									<li><label><input name="mType" value="Feldspar" type="checkbox" class="form_change">Feldspar</label></li>
+									<li><label><input name="mType" value="Gypsum" type="checkbox" class="form_change">Gypsum</label></li>
+									<li><label><input name="mType" value="Granite" type="checkbox" class="form_change">Granite</label></li>
+									<li><label><input name="mType" value="Gracel" type="checkbox" class="form_change">Gracel</label></li>
+									<li><label><input name="mType" value="Limestone" type="checkbox" class="form_change">Limestone</label></li>
 								
-									<li><label><input type="checkbox" class="form_change">Quartz</label></li>
-									<li><label><input type="checkbox" class="form_change">Pebble</label></li>
-									<li><label><input type="checkbox" class="form_change">Slag</label></li>
+									<li><label><input name="mType" value="Quartz" type="checkbox" class="form_change">Quartz</label></li>
+									<li><label><input name="mType" value="Pebble" type="checkbox" class="form_change">Pebble</label></li>
+									<li><label><input name="mType" value="Slag" type="checkbox" class="form_change">Slag</label></li>
 									<li  id="contact_mat_met">
-										<label><input type="checkbox" class="form_change">Metallic ores</label></li>
+										<label><input name="mType" value="Metallic ores" type="checkbox" class="form_change">Metallic ores</label></li>
 									<div class="clearfix"></div>
 									<li id="contact_mat_oth">
-										<label><input id="contact_che" type="checkbox"  class="form_change"/>Other</label>
+										<label><input name="mType"id="contact_che" type="checkbox"  class="form_change"/>Other</label>
 									</li>
 									<div class="field xl9 xs10 xm10 " id="contact_mat_oth_i">
-										<input  disabled="disabled" id="contact_inp" type="text" class="input radius-none" />
+										<input name="mType" disabled="disabled" id="contact_inp" type="text" class="input radius-none" />
 									</div>
 								</ul>
 							</div>
@@ -167,21 +181,21 @@
 						<div class="contact_fl"></div>
 							<div class="field xm10">
 								<ul class="contact_cap">
-										<li><label><input name="pintuer" type="radio" class="form_change"/>>650T/H</label></li>
-										<li><label><input name="pintuer" type="radio" class="form_change"/>450-649T/H</label></li>
-										<li><label><input name="pintuer" type="radio" class="form_change"/>400-449T/H</label></li>
-										<li><label><input name="pintuer" type="radio" class="form_change"/>300-399T/H</label></li>
+										<li><label><input name="mCap" value="> 650T/H" type="radio" class="form_change"/>>650T/H</label></li>
+										<li><label><input name="mCap" value="450-649T/H" type="radio" class="form_change"/>450-649T/H</label></li>
+										<li><label><input name="mCap" value="400-449T/H" type="radio" class="form_change"/>400-449T/H</label></li>
+										<li><label><input name="mCap" value="300-399T/H" type="radio" class="form_change"/>300-399T/H</label></li>
 									
 									
-										<li><label><input name="pintuer" type="radio" class="form_change"/>200-299T/H</label></li>
-										<li><label><input name="pintuer" type="radio" class="form_change"/>120-199T/H</label></li>
-										<li><label><input name="pintuer" type="radio" class="form_change"/>80-119T/H</label></li>
-										<li><label><input name="pintuer" type="radio" class="form_change"/>50-79T/H</label></li>
+										<li><label><input name="mCap" value="200-299T/H" type="radio" class="form_change"/>200-299T/H</label></li>
+										<li><label><input name="mCap" value="120-199T/H" type="radio" class="form_change"/>120-199T/H</label></li>
+										<li><label><input name="mCap" value="80-119T/H" type="radio" class="form_change"/>80-119T/H</label></li>
+										<li><label><input name="mCap" value="50-79T/H" type="radio" class="form_change"/>50-79T/H</label></li>
 									
 									
-										<li><label><input name="pintuer" type="radio" class="form_change"/>30-49T/H</label></li>
-										<li><label><input name="pintuer" type="radio" class="form_change"/><30T/H</label></li>
-										<li><label><input name="pintuer" type="radio" class="form_change"/>Other</label></li>
+										<li><label><input name="mCap" value="30-49T/H" type="radio" class="form_change"/>30-49T/H</label></li>
+										<li><label><input name="mCap" value="<30T/H" type="radio" class="form_change"/><30T/H</label></li>
+										<li><label><input name="mCap" value="Other" type="radio" class="form_change"/>Other</label></li>
 										<li>&nbsp;</li>
 								</ul>
 							</div>							
@@ -192,7 +206,7 @@
 								<label class="contact_float contact_n">Name:</label>
 							</div>
 							<div class="field xm10">
-								<input type="text" class="input radius-none"/>
+								<input type="text" name="userName" class="input radius-none"/>
 							</div>
 						</div>
 						<div class="clearfix"></div>
@@ -201,7 +215,7 @@
 								<label class="contact_float contact_n">E-Mail:</label>
 							</div>
 							<div class="field xm10">
-								<input type="text" class="input radius-none" placeholder="Your privacy is safe!"/>
+								<input type="text" name="userEMail" class="input radius-none" placeholder="Your privacy is safe!"/>
 							</div>
 						</div>
 						<div class="clearfix"></div>
@@ -210,7 +224,7 @@
 								<label class="contact_float contact_n">Country:</label>
 							</div>
 							<div class="field xm10">
-								<input type="text" class="input radius-none"/>
+								<input type="text" name="uCountry" class="input radius-none"/>
 							</div>
 						</div>
 						<div class="clearfix"></div>
@@ -219,7 +233,7 @@
 								<label class="contact_float contact_n">Tel:</label>
 							</div>
 							<div class="field xm10">
-								<input type="text" class="input radius-none"/>
+								<input type="text" name="userTel" class="input radius-none"/>
 							</div>
 						
 
@@ -230,10 +244,10 @@
 								<label class="contact_float contact_n">Message:</label>
 							</div>
 							<div class="field xm10">
-								<textarea rows="4" class="input radius-none" ></textarea>
+								<textarea rows="4" name="Message" class="input radius-none" placeholder="Please enter your demand such as: Output size 0-10, 10-15, 15-20mm for Crushing or 75 microns (200mesh) for Grinding and other requirements."></textarea>
 							</div>
 						</div>
-						<div id="con_but"><button onclick="this.form.submit">Submit</button></div>
+						<div id="con_but"><button onclick="this.form.submit">Submit</button><p style="text-align:center;padding-top:50px;"><a href="javascript:test()" >Reset</a></p></div>
 
 						<div class="form-group contact_subm">
 							<div class="label xl2 xs2 xm2 xb2">
@@ -244,7 +258,7 @@
 								<button class="button contact_sub radius-none"><b>Submit</b></button>
 							</div>
 							<div class="field xl2 xs4 xm4 xb4  contact_a">
-								<a href="">Reset</a>
+								<a href="javascript:test()">Reset</a>
 							</div>
 						</div>
 					</form>
@@ -333,7 +347,6 @@
 			Copyright &copy 2009-2014 Kefid Machinery, All rights reserved.
 		</div>
 		</div>
-		
 	</div>
 </body>
 </html>

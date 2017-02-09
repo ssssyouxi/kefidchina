@@ -24,3 +24,6 @@ $(function  () {
 		}
 	});
 })
+function test(){
+		document.msgForm.reset(); 
+	}

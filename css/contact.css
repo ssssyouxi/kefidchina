@@ -6,7 +6,7 @@
 	padding-top: 7px;
 }
 
-.contact_h1{color:#444549;font-family: Estrangelo Edessa;position:relative;left:2px;padding-top:37px;font-size: 32px;height:84px;margin:0;}
+.contact_h1{color:#444549;font-family: Estrangelo Edessa,Arial,Helvetica,sans-serif,"Microsoft YaHei","simsun","Helvetica Neue";position:relative;left:2px;padding-top:37px;font-size: 32px;height:84px;margin:0;}
 .contact_h4{position:relative;left:0px;padding-top:38px;height:69px;margin:0;}
 article section .contact_a1{
 	padding-top: 20px;
@@ -153,6 +153,9 @@ form{
 	position:relative;
 	right: 20px;
 }
+h2{
+	display: none;
+}
 @media(min-width: 1200px){
 	h4{
 		width:90%;
@@ -186,9 +189,13 @@ form{
 
 }
 }
-@media(max-width: 350px){
+@media(max-width: 360px){
 	.contact_h1{
-		font-size: 29px;
+		font-size: 27px;
+		display: none;
+	}
+	.contact_h2{
+		display: block;
 	}
 }
 @media(max-width: 414px){
@@ -309,4 +316,7 @@ form button {
 		display: block;
 	    padding:0px 10px;
 		}
+	.label .contact_c{
+		padding-bottom: 10px;
+	}
 }

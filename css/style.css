@@ -53,8 +53,8 @@ li{
 }
 @media(max-width: 760px){
 	.fixed-top{
-    padding-top: 10px;
-    padding-bottom: 10px;
+/*    padding-top: 10px;
+    padding-bottom: 10px;*/
     background-color: #fff;}
 	#but{
 		position: relative;
